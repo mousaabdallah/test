@@ -38,5 +38,12 @@ public class MainController {
         return shoe;
     }
 
+    @RequestMapping(path = "/shoe123",method = RequestMethod.GET,produces="application/json")
+    public Shoes getShoe123(){
+        log.info("Hellooooooooo");
+        Shoes shoe = shoesRepository.findFirstById(2);
+        return shoe;
+    }
+
 
 }
