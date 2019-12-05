@@ -1,0 +1,1 @@
+DELETE FROM `kuku`.`shoes` WHERE (`id` = '11');

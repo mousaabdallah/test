@@ -1,0 +1,1 @@
+INSERT INTO `kuku`.`shoes` (`id`, `type`, `size`, `color`) VALUES ('11', 'ka', '77', 'km');
