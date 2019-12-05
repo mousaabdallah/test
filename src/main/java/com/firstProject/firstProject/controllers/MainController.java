@@ -21,8 +21,15 @@ public class MainController {
     private ShoesRepository shoesRepository;
 
     @RequestMapping(path = "/sub44",method = RequestMethod.GET)
-    public String getName44(){
+    public String getName44() {
         return "ahmad44";
+    }
+    @RequestMapping(path = "/sub55",method = RequestMethod.GET)
+    public String getName55(){
+        return "ahmad33";
+    }
+
+
 
     @RequestMapping(path = "/sub33",method = RequestMethod.GET)
     public String getName33(){
