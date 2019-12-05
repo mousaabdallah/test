@@ -20,6 +20,11 @@ public class MainController {
     @Autowired
     private ShoesRepository shoesRepository;
 
+    @RequestMapping(path = "/sub44",method = RequestMethod.GET)
+    public String getName44(){
+        return "ahmad44";
+    }
+
     @RequestMapping(path = "/sub",method = RequestMethod.GET)
     public String getName(){
         return "ahmad";
