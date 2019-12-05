@@ -23,6 +23,11 @@ public class MainController {
     @RequestMapping(path = "/sub44",method = RequestMethod.GET)
     public String getName44(){
         return "ahmad44";
+
+    @RequestMapping(path = "/sub33",method = RequestMethod.GET)
+    public String getName33(){
+        return "ahmad33";
+
     }
 
     @RequestMapping(path = "/sub",method = RequestMethod.GET)
